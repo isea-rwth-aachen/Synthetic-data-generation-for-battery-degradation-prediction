@@ -1,5 +1,13 @@
-Synthetic data generation method.
-Developers: Harshvardhan Samsukha, Weihan Li
+# Synthetic data generation for battery degradation prediction
+
+# Introduction
+The data and code in this repository associated with the research work at ISEA, RWTH Aachen University in synthetic data generation for battery degradation prediction.
+
+# Datasets
+
+# Modeling Codes
+
+# General Steps
 
 1. Input capacity/time-series data file should be of the format as shown in the
    included open source NASA Battery Dataset titled 'NASA_dataset.xlsx'.
@@ -18,3 +26,6 @@ Developers: Harshvardhan Samsukha, Weihan Li
    'selected_cells' array. For example:
        selected_cells = np.array([1, 3]) # Cell numbers 1 and 3 selected
 
+# Contact
+Weihan Li weihan.li@isea.rwth-aachen.de
+Harshvardhan Samsukha harshvardhan.samsukha@rwth-aachen.de 
